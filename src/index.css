@@ -5,7 +5,8 @@
 }
 body{
   inset: 0 0 0 0;
-  background-image: url(src/assets/backgound.png);
+  /* background-image: url(src/assets/backgound.png); */
+  background-color: #5f1fcd;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

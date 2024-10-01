@@ -5,7 +5,7 @@ import Box from "./Box";
 const TARGET_DATE = new Date("2024-10-01T23:59:59");
 
 const getLeft = () => {
-  const totalTime = TARGET_DATE - new Date();
+  const totalTime = TARGET_DATE.getTime() - new Date().getTime();
   const days = Math.floor(totalTime / (1000 * 60 * 60 * 24));
   const hours = Math.floor((totalTime / (1000 * 60 * 60)) % 24);
   const minuts = Math.floor((totalTime / (1000 * 60)) % 60);
