@@ -1,0 +1,20 @@
+.Box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.children{
+    color: #222;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.title{
+    position: absolute;
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: #fff;
+    /* opacity: 0.7; */
+    letter-spacing: 10px;
+    text-align: center;
+}
